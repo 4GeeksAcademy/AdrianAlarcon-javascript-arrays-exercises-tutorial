@@ -8,7 +8,8 @@ let people = [
 
 let simplifier = function(person) {
 	// Your code here
-	return person.name;
+    
+	return "Hello, my name is "+ person.name+" and I am "+people.birthDate+" years old";
 };
 
 console.log(people.map(simplifier));
